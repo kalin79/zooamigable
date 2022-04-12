@@ -1,0 +1,335 @@
+a
+     text-decoration: none
+     &:focus,
+     &:hover
+          outline: transparent
+          box-shadow: none
+h1,
+h2,
+h3,
+p
+     margin: 0 
+.contentBlur
+     &.active
+          filter: blur(2px)
+
+p
+     @include fontDescription(white)
+     &.bold
+          font-family: $fontDescriptionBold
+.boxButton
+     @include styleButton()
+.boxLink
+     a
+          @include styleLink($yellow, $yellow)
+.boxTitle
+     h1,
+     h2
+          @include fontTitle(white)
+     h3
+          @include fontFree(white, 38px,33px,30px,20px, $fontDescriptionMedium)
+.txtUppercase
+     text-transform: uppercase !important
+.boxSubTitle
+     h2,
+     h3,
+     h4,
+     h5
+          @include fontSubTitle(white, $fontDescriptionBold)
+     
+.relative
+     position: relative
+
+.fullHeight
+     height: 100% !important
+.fullwidth
+     width: 100% !important
+.txtCenter
+     text-align: center !important
+.txtUpperCase
+     text-transform: uppercase !important
+.txtColorGray
+     color: $grayDark !important
+.bgColorGrayLight2
+     background-color: $grayLight2 !important
+.colorYellow
+     color: $yellow !important
+.bgRojo
+     background: #d01010 !important
+.bgBlanco
+     background: #fff !important
+.bgAzul
+     background: #104ad0 !important
+.bgCeleste
+     background: #1DB6F7 !important
+.bgVerde
+     background: #4ea932 !important
+.bgNegro
+     background: #000 !important
+.bgGrisOscuro
+     background: #303030 !important
+.bgGris
+     background: #5d5d5d !important
+.bgNaranja
+     background: #ffae00 !important
+.bgVerdePastel
+     background: #76be9a !important
+.bgAmarrillo
+     background: #fce91a !important
+.bgGuinda
+     background: #9a1c1c !important
+
+.boxContent
+     padding-top: 8rem
+.boxSocial
+     padding: .5rem 0
+     a
+          width: 25px
+          height: 25px
+          &.iconSVG
+               width: 25px
+               height: 25px
+               display: block
+               background: white
+               border-radius: 50%
+               overflow: hidden
+               svg
+                    fill: $green
+               &.blue
+                    svg
+                         fill: $blue
+          img
+               width: 100%
+               height: 100%
+               display: block
+          &:first-child
+               margin-right: .35rem
+.boxBackground
+     background-image: url('/frontend/images/fondo.jpg')
+     background-size: cover
+     background-repeat: no-repeat
+     background-position: center
+     
+     &.space
+          padding-top: 21rem
+          background-size: contain
+          background-position: top
+     &.fullScreen
+          width: 100%
+          height: 100vh
+.boxBackground2
+     background-color: $green
+     // min-height: 522px
+     // @media screen and (min-width: 992px)
+     //      min-height: 658px
+
+.pageConstruccion
+     p
+          @include fontFree($gray, 38px,33px,30px,26px, $fontScroll)
+          text-transform: uppercase
+     .imgAux
+          width: 320px
+          @media screen and (min-width: 992px)
+               width: 300px
+          @media screen and (min-width: 1200px)
+               width: 400px
+     .imgAux2
+          width: 150px
+          @media screen and (min-width: 992px)
+               width: 200px
+          @media screen and (min-width: 1200px)
+               width: 250px
+     .imgAux3
+          width: 250px
+          @media screen and (min-width: 992px)
+               width: 250px
+          @media screen and (min-width: 1200px)
+               width: 300px
+     .boxLogos
+          margin-top: 1.5rem
+          width: 300px
+          @media screen and (min-width: 992px)
+               width: 400px
+          a
+               width: 100%
+               img
+                    width: 100%
+.toscew
+     background-color: transparent
+     transform: skewY(-4deg)
+     .tounscew
+          transform: skewY(4deg)
+.boxVideoAnimal
+     width: 100%
+     height: 725px
+     margin: auto
+     text-align: center
+     position: relative
+     z-index: 222
+     @media screen and (min-width: 992px)
+          height: 576px
+.boxShare
+     position: absolute
+     width: 100%
+     left: 0
+     bottom: -5rem
+     z-index: 333
+     background-color: #00b388
+     padding: 3rem 0
+     @media screen and (min-width: 992px)
+          padding: 2rem 0 6rem
+          bottom: -8rem
+     a
+          width: 100%
+          svg
+               width: 2rem
+               height: 2rem
+               color: white
+.owl-nav
+     // transform: translateY(-30%) skewY(4deg) !important
+     .owl-prev,
+     .owl-next
+          position: absolute
+          left: 0rem
+          right: auto
+          bottom: 5rem !important
+          top: auto !important
+          border: 0px solid red
+          // width: 100%
+          background-color: rgba(0,0,0,0.5) !important
+          // width: 40px !important
+          // height: 82px !important
+          // padding: .5rem !important
+          @media screen and (min-width: 992px)
+               top: 50% !important
+               bottom: auto !important
+               transform: translateY(30%) !important
+               background-color: transparent !important
+               left: 1rem
+               // padding: 0rem !important
+          span
+               background-image: url('/frontend/images/izq.png') !important
+               background-size: cover !important
+               background-repeat: no-repeat !important
+               background-position: center !important
+               width: 40px !important
+               height: 82px !important
+               text-indent: 3000px  
+               display: block
+               overflow: hidden
+
+         
+          // span
+          //      display: none
+     .owl-next
+          right: 0rem
+          left: auto
+          @media screen and (min-width: 992px)
+               right: 4.5rem
+          span
+               background-image: url('/frontend/images/dre.png') !important
+               background-size: cover !important
+               background-repeat: no-repeat !important
+               background-position: center !important
+          
+          
+.boxGalleryAnimalFotos
+     width: 100%
+     margin: auto
+     text-align: center
+     border: 0px solid red
+     @media screen and (min-width: 992px)
+          width: 500px
+     > div
+          div
+               width: 50%
+               height: 290px
+               @media screen and (min-width: 992px)
+                    height: 160px
+               img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+
+.owl-carousel .owl-item
+     .boxGalleryAnimal
+          padding: 0 0rem
+          @media screen and (min-width: 992px)
+               padding: 0 4rem
+          .animalImage
+               position: absolute
+               right: -1rem
+               top: -24rem
+               width: 480px 
+               @media screen and (min-width: 992px)
+                    width: 700px 
+                    right: -5rem
+                    top: -27rem
+          .animalImage2
+               width: 560px 
+               position: absolute
+               left: 0
+               right: auto
+               top: -4.5rem
+               @media screen and (min-width: 992px)
+                    left: auto
+                    right: -9rem
+                    top: -4rem
+                    width: 700px  
+               @media screen and (min-width: 1200px)
+                    right: -7rem
+                    top: -2rem
+                    width: 700px 
+               @media screen and (min-width: 1400px)
+                    right: -5rem
+                    top: -9rem
+                    width: 800px 
+          .animalImage3
+               width: 300px 
+               position: absolute
+               left: 50%
+               transform: translateX(-50%)
+               right: auto
+               top: -2rem
+               @media screen and (min-width: 992px)
+                    left: auto
+                    transform: none
+                    right: 6rem
+                    top: -6rem
+                    width: 400px 
+               @media screen and (min-width: 1200px)
+                    right: 6rem
+                    top: -6rem
+                    width: 400px 
+               @media screen and (min-width: 1400px)
+                    right: 6rem
+                    top: -6rem
+                    width: 400px  
+          .animalSubtitle
+               h3
+                    @include fontFree(white, 30px,30px,30px,20px, $dinoBold)
+                    text-transform: uppercase
+               
+          .animalTitle
+               h2
+                    @include fontFree(white, 50px,50px,50px,34px, $dinoBold)
+          .animalDescription
+               padding-right: 2rem
+               min-height: 160px
+               border: 0px solid red
+               @media screen and (min-width: 992px)
+                    min-height: 320px
+               p
+                    @include fontFree(white, 22px,22px,22px,18px, $dinoLight)
+                    line-height: 1.5em
+                    @media screen and (min-width: 992px)
+                         line-height: 1.5em
+                    @media screen and (min-width: 1200px)
+                         line-height: 1.5em
+                    @media screen and (min-width: 1400px)
+                         line-height: 1.5em
+                    &.bold,
+                    span
+                         font-family: $dinoBold
+
+

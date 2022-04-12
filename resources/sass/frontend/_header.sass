@@ -1,0 +1,229 @@
+.navmobil
+     position: fixed
+     top: 1rem
+     right: 1rem
+     z-index: 1000
+     display: block
+     @media screen and (min-width: 992px)
+          display: none
+     svg
+          width: 2rem
+          height: 2rem
+          color: black
+.headerMain
+     position: absolute
+     top: 0
+     left: 0
+     width: 100%
+     z-index: 1000
+     display: none
+     @media screen and (min-width: 992px)
+          display: block
+     .boxContent
+          padding-top: 0
+          .boxHeaderTop
+               background: $blue
+          .boxHeaderDown
+               background: $green
+               padding: .5rem 0
+               .boxLogo
+                    img
+                         width: 185px
+                         height: 50px
+                         display: block
+          img
+               max-width: 100%
+.closeNav
+     position: absolute
+     top: 1rem
+     right: 1rem
+     display: block
+     @media screen and (min-width: 992px)
+          display: none
+     svg
+          width: 2rem
+          height: 2rem
+          color: white
+.headerNavMain
+     position: fixed
+     z-index: 1000
+     top: 0rem
+     right: auto
+     left: 0
+     width: 100%
+     height: 100vh
+     background-color: rgba(black, .85)
+     display: none
+     @media screen and (min-width: 992px)
+          top: 8rem
+          right: 1rem  
+          left: auto
+          width: auto
+          height: auto
+          background-color: transparent
+          display: block
+     &.active
+          display: block
+     .boxLogoNav
+          padding: 2rem 0
+          display: block
+          @media screen and (min-width: 992px)
+               display: none
+          img
+               width: 7rem
+     nav
+          padding-left: 2rem
+          @media screen and (min-width: 992px)
+               padding-left: 0rem
+          > div
+               margin-bottom: 1.5rem
+               @media screen and (min-width: 992px)
+                    margin-bottom: .5rem
+               p
+                    margin-left: 1rem
+                    display: block
+                    @media screen and (min-width: 992px)
+                         display: none
+               a
+                    width: 60px
+                    height: 60px
+                    border-radius: 50%
+                    overflow: hidden
+                    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
+                    display: block
+                    @media screen and (min-width: 992px)
+                         width: 45px
+                         height: 45px
+                         // margin-bottom: .8rem
+                    @media screen and (min-width: 1200px)
+                         width: 50px
+                         height: 50px
+                         // margin-bottom: .8rem
+                    @media screen and (min-width: 1400px)
+                         width: 60px
+                         height: 60px
+                         // margin-bottom: 1rem
+                    .iconNav,
+                    .iconCircle,
+                    .iconCircle2
+                         height: 100%
+                         width: 100%
+                         border-radius: 50%
+                         overflow: hidden
+                    .iconNav
+                         background: transparent
+                         border: 2px solid white
+                         .iconCircle
+                              background: transparent
+                              border: 0px solid $green
+                              .iconCircle2
+                                   background: $green
+                                   background: linear-gradient(180deg, $green 100%, rgba(1,79,162,0) 100%)
+                                   img
+                                        width: 80%
+                    &.iconBlue
+                         .iconNav
+                              background: transparent
+                              .iconCircle
+                                   background: transparent
+                                   border: 0px solid $blue
+                                   .iconCircle2
+                                        background: $blue
+                                        background: linear-gradient(180deg, $blue 100%, rgba(1,79,162,0) 100%) 
+                                        img
+                                             width: 55%
+                                             @media screen and (min-width: 992px)
+                                                  width: 45%
+                                             @media screen and (min-width: 1200px)
+                                                  width: 55%
+                                             @media screen and (min-width: 1400px)
+                                                  width: 55%
+                    &.iconOrange
+                         &.dino
+                              .iconNav
+                                   .iconCircle
+                                        .iconCircle2
+                                             img
+                                                  width: 55%
+                                                  @media screen and (min-width: 992px)
+                                                       width: 65%
+                                                  @media screen and (min-width: 1200px)
+                                                       width: 65%
+                                                  @media screen and (min-width: 1400px)
+                                                       width: 65%
+                         .iconNav
+                              background: transparent
+                              .iconCircle
+                                   background: transparent
+                                   border: 0px solid $orange
+                                   .iconCircle2
+                                        background: $orange
+                                        background: linear-gradient(180deg, $orange 100%, rgba(1,79,162,0) 100%)
+                                        img
+                                             width: 55%
+                                             @media screen and (min-width: 992px)
+                                                  width: 45%
+                                             @media screen and (min-width: 1200px)
+                                                  width: 55%
+                                             @media screen and (min-width: 1400px)
+                                                  width: 55%
+                    &.iconBlueDark
+                         &.canguro
+                              .iconNav
+                                   .iconCircle
+                                        .iconCircle2
+                                             img
+                                                  width: 55%
+                                                  @media screen and (min-width: 992px)
+                                                       width: 65%
+                                                  @media screen and (min-width: 1200px)
+                                                       width: 65%
+                                                  @media screen and (min-width: 1400px)
+                                                       width: 65%
+                         .iconNav
+                              background: transparent
+                              .iconCircle
+                                   background: transparent
+                                   border: 0px solid $blueDark
+                                   .iconCircle2
+                                        background: $blueDark
+                                        background: linear-gradient(180deg, $blueDark 100%, rgba(1,79,162,0) 100%)
+                                        img
+                                             width: 55%
+                                             @media screen and (min-width: 992px)
+                                                  width: 45%
+                                             @media screen and (min-width: 1200px)
+                                                  width: 55%
+                                             @media screen and (min-width: 1400px)
+                                                  width: 55%
+                    &.iconLightBlue
+                         &.mucho
+                              .iconNav
+                                   .iconCircle
+                                        .iconCircle2
+                                             img
+                                                  width: 55%
+                                                  @media screen and (min-width: 992px)
+                                                       width: 65%
+                                                  @media screen and (min-width: 1200px)
+                                                       width: 65%
+                                                  @media screen and (min-width: 1400px)
+                                                       width: 65%
+                         .iconNav
+                              background: transparent
+                              .iconCircle
+                                   background: transparent
+                                   border: 0px solid $lightBlue
+                                   .iconCircle2
+                                        background: $lightBlue
+                                        background: linear-gradient(180deg, $lightBlue 100%, rgba(1,79,162,0) 100%)
+                                        img
+                                             width: 55%
+                                             @media screen and (min-width: 992px)
+                                                  width: 45%
+                                             @media screen and (min-width: 1200px)
+                                                  width: 55%
+                                             @media screen and (min-width: 1400px)
+                                                  width: 55%
+
+

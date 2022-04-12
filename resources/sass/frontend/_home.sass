@@ -1,0 +1,175 @@
+
+.homeIntro
+     margin-top: 0
+     .boxBackground
+          background-image: url('/frontend/images/fondo2.jpg')
+          position: relative
+          &:after
+               content: ''
+               position: absolute
+               top: 0
+               height: 100%
+               width: 100%
+               left: 0
+               z-index: 4
+               background-color: rgba($blueLight, .8)
+          .boxContent
+               padding-bottom: 8rem
+               position: relative
+               z-index: 5
+               .boxAnimals
+                    a
+                         height: 160px
+                         width: 110px
+                         margin: 1rem
+                         &:nth-of-type(2)
+                              width: 100px
+                         &:nth-of-type(3)
+                              width: 90px
+                         &:nth-of-type(4)
+                              width: 150px
+                         img
+                              width: 100%
+
+.homeBanner
+     .boxBackground
+          background-position: top center
+          overflow: hidden
+          .boxContent 
+               padding-top: 6.5rem
+               .centerTitle
+                    width: 250px
+                    border: 0px solid red
+                    margin-top: 3rem
+                    @media screen and (min-width: 992px)
+                         width: 250px
+                         margin-top: 0rem
+                    @media screen and (min-width: 1200px)
+                         width: 320px
+                    @media screen and (min-width: 1400px)
+                         width: 380px
+                    .titleBanner
+                         position: relative
+                         top: 1.6rem
+                         @media screen and (min-width: 992px)
+                              top: 1.6rem
+                         @media screen and (min-width: 1200px)
+                              top: 1.6rem
+                         @media screen and (min-width: 1400px)
+                              top: 1.6rem
+                         img
+                              width: 150px
+                              @media screen and (min-width: 992px)
+                                   width: 150px
+                              @media screen and (min-width: 1200px)
+                                   width: 200px
+                              @media screen and (min-width: 1400px)
+                                   width: 250px
+                    .textZoo
+                         img
+                              width: 100%
+                              // width: 230px
+                              // @media screen and (min-width: 992px)
+                              //      width: 230px
+                              // @media screen and (min-width: 1200px)
+                              //      width: 280px
+                              // @media screen and (min-width: 1400px)
+                              //      width: 320px
+                    .boxParqueArauco
+                         img
+                              width: 150px
+                              @media screen and (min-width: 992px)
+                                   width: 150px
+                              @media screen and (min-width: 1200px)
+                                   width: 150px
+                              @media screen and (min-width: 1400px)
+                                   width: 180px
+                    .boxLogos
+                         margin-top: .5rem
+                         width: 215px
+                         @media screen and (min-width: 992px)
+                              margin-top: .5rem
+                              width: auto
+                         @media screen and (min-width: 1200px)
+                              margin-top: 1rem
+                         @media screen and (min-width: 1400px)
+                              margin-top: 1rem
+                         a
+                              width: 100%
+                    .boxScroll
+                         margin-top: 1rem
+                         a
+                              img
+                                   width: 20px
+                              p
+                                   @include fontFree($gray, 12px,12px,10px,10px, $fontScroll)
+                                   text-transform: uppercase
+                                   line-height: 2em
+                                   @media screen and (min-width: 992px)
+                                        line-height: 2em
+                                   @media screen and (min-width: 1200px)
+                                        line-height: 2em
+                                   @media screen and (min-width: 1200px)
+                                        line-height: 2em
+               .boxMuchoMejor
+                    position: absolute
+                    top: -9rem
+                    left: -1.5rem
+                    @media screen and (min-width: 992px)
+                         top: 1rem
+                         left: 7.5rem
+                    a
+                         display: block
+                         width: 180px
+                         @media screen and (min-width: 992px)
+                              width: 180px
+                         @media screen and (min-width: 1200px)
+                              width: 180px
+                         @media screen and (min-width: 1400px)
+                              width: 180px
+               .boxElefante,
+               .boxJirafa
+                    position: absolute
+               .boxJirafa
+                    bottom: -15.5rem
+                    right: -8rem
+                    @media screen and (min-width: 992px)
+                         bottom: -10rem
+                         right: 5rem
+                    @media screen and (min-width: 1200px)
+                         bottom: -10rem
+                         right: 5rem
+                    @media screen and (min-width: 1400px)
+                         bottom: -10rem
+                         right: 5rem
+                    img
+                         display: block
+                         width: 250px
+                         transform: scaleX(-1)
+                         @media screen and (min-width: 992px)
+                              width: 320px
+                         @media screen and (min-width: 1200px)
+                              width: 380px
+                         @media screen and (min-width: 1400px)
+                              width: 480px
+               .boxElefante
+                    bottom: -11rem
+                    left: -12rem
+                    @media screen and (min-width: 992px)
+                         bottom: -10rem
+                         left: -1.5rem
+                    @media screen and (min-width: 1200px)
+                         bottom: -10rem
+                         left: -1.5rem
+                    @media screen and (min-width: 1400px)
+                         bottom: -10rem
+                         left: -1.5rem
+                    img
+                         display: block
+                         width: 300px
+                         @media screen and (min-width: 992px)
+                              width: 420px
+                         @media screen and (min-width: 1200px)
+                              width: 480px
+                         @media screen and (min-width: 1400px)
+                              width: 580px

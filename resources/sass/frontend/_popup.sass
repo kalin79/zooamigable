@@ -1,0 +1,35 @@
+.boxModal
+     background: rgba(66, 66, 66, 0.64)
+     position: fixed
+     z-index: 8000
+     width: 100%
+     height: 100vh
+     top: 0
+     left: 0
+     display: none
+     .boxContentCenter
+          width: 350px
+          @media screen and (min-width: 992px)
+               width: 800px
+          @media screen and (min-width: 1200px)
+               width: 900px
+          @media screen and (min-width: 1400px)
+               width: 1000px
+          img
+               width: 100%
+     .btnClosePopUp
+          position: absolute
+          top: 0
+          right: 0
+          z-index: 4
+          a
+               width: 40px
+               display: block
+               img
+                    width: 100%
+     &.active 
+          display: block
+     
+.contentBlur
+     &.active
+          filter: blur(4px)
