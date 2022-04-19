@@ -17,8 +17,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/demo',"FrontEnd\HomeController@index");
-Route::get('/',"FrontEnd\HomeController@contruccion");
+Route::get('/',"FrontEnd\HomeController@index");
+Route::redirect('/demo', '/', 301);
+// Route::get('/',"FrontEnd\HomeController@contruccion");
 Route::get('/mucho-mejor',"FrontEnd\HomeController@mucho");
 
 Route::get('/clear-cache', function () {
