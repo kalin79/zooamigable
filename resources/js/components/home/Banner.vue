@@ -6,7 +6,7 @@
                          <div class="container-fluid relative">
                               <div class="boxMuchoMejor">
                                    <a href="javascript:void(0)">
-                                        <img  src="/frontend/images/mucho.svg" alt="Mucho Mejor" title="Mucho Mejor">
+                                        <img  src="/frontend/images/Lognegro.png" alt="Mucho Mejor" title="Mucho Mejor">
                                    </a>
                               </div>
                               <div class="boxElefante">

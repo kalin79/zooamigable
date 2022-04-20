@@ -26,13 +26,13 @@
                                         <img src="/frontend/images/icojirafa.png" alt="ZAFA">
                                         <p class="txtCenter">ZAFA</p>
                                    </a>
-                                   <a href="javascript:void(0)" v-on:click="irAnimal('Canguro')" class="d-flex justify-content-end align-items-center flex-column">
-                                        <img src="/frontend/images/icocanguro.png" alt="LULI Y MAURA">
-                                        <p class="txtCenter">LULI Y MAURA</p>
-                                   </a>
                                    <a href="javascript:void(0)" v-on:click="irAnimal('Rex')" class="d-flex justify-content-end align-items-center flex-column">
                                         <img src="/frontend/images/icorex.png" alt="Rex">
                                         <p class="txtCenter">GERARD</p>
+                                   </a>
+                                   <a href="javascript:void(0)" v-on:click="irAnimal('Canguro')" class="d-flex justify-content-end align-items-center flex-column">
+                                        <img src="/frontend/images/icocanguro.png" alt="LULI Y MAURA">
+                                        <p class="txtCenter">LULI Y MAURA</p>
                                    </a>
                                    <a href="javascript:void(0)" v-on:click="irAnimal('Zorro')" class="d-flex justify-content-end align-items-center flex-column">
                                         <img src="/frontend/images/icozorro.png" alt="ZUN ZUN">

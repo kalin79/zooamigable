@@ -52,7 +52,7 @@
                               </div>
                          </div>
                     </a>
-                    <p v-on:click="irAnimal('Rex')">Gerard</p>
+                    <p v-on:click="irAnimal('Rex')">GERARD</p>
                </div>
                <div class="d-flex justify-content-center align-items-center">
                     <a href="javascript:void(0)" v-on:click="irAnimal('Canguro')" class="relative iconBlueDark canguro">

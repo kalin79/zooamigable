@@ -20,7 +20,7 @@
                                                             </div>
                                                             <div class="animalDescription">
                                                                  <p>
-                                                                      Desde las montañas de Canada conocimos al Zorro Zun Zun quien asegura ser tío del zorrito Run Run.<br>
+                                                                      Desde las montañas de Canadá, conocimos al Zorro Zun Zun quien asegura ser tío del zorrito Run Run.<br>
                                                                       ¿Se parecen?
                                                                  </p>
                                                             </div>
