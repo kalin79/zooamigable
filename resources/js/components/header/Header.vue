@@ -23,7 +23,7 @@
                          <div class="container-fluid">
                               <div class="d-flex justify-content-start align-items-center">
                                    <a href="/" class="boxLogo">
-                                        <img src="/frontend/images/pa2.svg" alt="P.A">
+                                        <img src="/frontend/images/mpcaneteblanco.svg" alt="P.A">
                                    </a>
                               </div>
                          </div>
