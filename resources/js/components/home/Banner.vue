@@ -30,9 +30,9 @@
                                         <div class="textZoo">
                                              <img src="/frontend/images/amigable2.svg" alt="Amigable" title="Amigable">
                                         </div>
-                                        <div class="boxParqueArauco d-flex justify-content-center align-items-center">
+                                        <!--<div class="boxParqueArauco d-flex justify-content-center align-items-center">
                                              <img src="/frontend/images/pa.svg" alt="Parque Arauco" title="Parque Arauco">
-                                        </div>
+                                        </div>-->
                                         <div class="boxLogos d-flex justify-content-between align-items-center">
                                              <a href="javascript:void(0)">
                                                   <img src="/frontend/images/mega.svg" alt="Mega Plaza" title="Mega Plaza">

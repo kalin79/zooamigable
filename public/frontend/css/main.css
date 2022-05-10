@@ -12328,6 +12328,7 @@ form .boxCheckbox label:before {
 }
 .homeBanner .boxBackground .boxContent .centerTitle .textZoo img {
   width: 100%;
+  margin-left: 45px;
 }
 .homeBanner .boxBackground .boxContent .centerTitle .boxParqueArauco img {
   width: 150px;

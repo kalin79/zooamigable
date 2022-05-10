@@ -23318,13 +23318,15 @@ var _hoisted_9 = {
   "class": "centerTitle"
 };
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"titleBanner\"><img src=\"/frontend/images/bienvenido.svg\" alt=\"Bienvenido\" title=\"Bienvenido\"></div><div class=\"boxZoo\"><img src=\"/frontend/images/zoo.svg\" alt=\"Zoo lógico amigable\" title=\"Zoo lógico amigable\"></div><div class=\"textZoo\"><img src=\"/frontend/images/amigable2.svg\" alt=\"Amigable\" title=\"Amigable\"></div><div class=\"boxParqueArauco d-flex justify-content-center align-items-center\"><img src=\"/frontend/images/pa.svg\" alt=\"Parque Arauco\" title=\"Parque Arauco\"></div><div class=\"boxLogos d-flex justify-content-between align-items-center\"><a href=\"javascript:void(0)\"><img src=\"/frontend/images/mega.svg\" alt=\"Mega Plaza\" title=\"Mega Plaza\"></a><a href=\"javascript:void(0)\"><img src=\"/frontend/images/quinde.svg\" alt=\"Quinde\" title=\"Quinde\"></a><a href=\"javascript:void(0)\"><img src=\"/frontend/images/parque.svg\" alt=\"Parque Lambramani\" title=\"Parque Lambramani\"></a><a href=\"javascript:void(0)\"><img src=\"/frontend/images/io.svg\" alt=\"InOutlet\" title=\"InOutlet\"></a></div>", 5);
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"titleBanner\"><img src=\"/frontend/images/bienvenido.svg\" alt=\"Bienvenido\" title=\"Bienvenido\"></div><div class=\"boxZoo\"><img src=\"/frontend/images/zoo.svg\" alt=\"Zoo lógico amigable\" title=\"Zoo lógico amigable\"></div><div class=\"textZoo\"><img src=\"/frontend/images/amigable2.svg\" alt=\"Amigable\" title=\"Amigable\"></div>", 3);
 
-var _hoisted_15 = {
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"boxLogos d-flex justify-content-between align-items-center\"><a href=\"javascript:void(0)\"><img src=\"/frontend/images/mega.svg\" alt=\"Mega Plaza\" title=\"Mega Plaza\"></a><a href=\"javascript:void(0)\"><img src=\"/frontend/images/quinde.svg\" alt=\"Quinde\" title=\"Quinde\"></a><a href=\"javascript:void(0)\"><img src=\"/frontend/images/parque.svg\" alt=\"Parque Lambramani\" title=\"Parque Lambramani\"></a><a href=\"javascript:void(0)\"><img src=\"/frontend/images/io.svg\" alt=\"InOutlet\" title=\"InOutlet\"></a></div>", 1);
+
+var _hoisted_14 = {
   "class": "boxScroll d-flex justify-content-center align-items-center"
 };
 
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/frontend/images/mouse.svg",
   alt: "Scroll",
   title: "Scroll"
@@ -23332,21 +23334,21 @@ var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "txtCenter"
 }, "sigue escroleando", -1
 /* HOISTED */
 );
 
-var _hoisted_18 = [_hoisted_16, _hoisted_17];
+var _hoisted_17 = [_hoisted_15, _hoisted_16];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("<div class=\"boxParqueArauco d-flex justify-content-center align-items-center\">\r\n                                             <img src=\"/frontend/images/pa.svg\" alt=\"Parque Arauco\" title=\"Parque Arauco\">\r\n                                        </div>"), _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: "javascript:void(0)",
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $options.irAnimal('intro');
     }),
     "class": "d-flex justify-content-center align-items-center flex-column"
-  }, _hoisted_18)])])])])])])])]);
+  }, _hoisted_17)])])])])])])])]);
 }
 
 /***/ }),
