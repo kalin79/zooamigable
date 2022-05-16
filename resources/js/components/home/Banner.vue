@@ -44,7 +44,7 @@
                                                   <img src="/frontend/images/parque.svg" alt="Parque Lambramani" title="Parque Lambramani">
                                              </a>
                                              <a href="javascript:void(0)">
-                                                  <img src="/frontend/images/io.svg" alt="InOutlet" title="InOutlet">
+                                                  <img src="/frontend/images/OA_H_OUTLINE_B_245X150.svg" alt="InOutlet" title="InOutlet">
                                              </a>
                                         </div>
                                         <div class="boxScroll d-flex justify-content-center align-items-center">
