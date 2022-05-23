@@ -22,7 +22,7 @@
                     <div class="boxHeaderDown">
                          <div class="container-fluid">
                               <div class="d-flex justify-content-start align-items-center">
-                                   <a href="/" class="boxLogo">
+                                   <a href="https://www.megaplaza.com.pe/canete" class="boxLogo">
                                         <img src="/frontend/images/mpcaneteblanco.svg" alt="P.A">
                                    </a>
                               </div>

@@ -19,23 +19,23 @@
           </div>
           <nav class="d-flex flex-column justify-content-center align-items-xl-center align-items-start">
                <div class="d-flex justify-content-center align-items-center">
-                    <a href="javascript:void(0)" v-on:click="irAnimal('Elefante')" class="relative">
+                    <a href="javascript:void(0)" v-on:click="irAnimal('Elmer1')" class="relative">
                          <div class="iconNav">
                               <div class="iconCircle">
                                    <div class="iconCircle2 d-flex justify-content-center align-items-center">
-                                        <img src="/frontend/images/elefante.png" alt="Elefante" title="Elefante" />
+                                        <img src="/frontend/images/elefante.png" alt="Elmer" title="Elmer" />
                                    </div>
                               </div>
                          </div>
                     </a>
-                    <p v-on:click="irAnimal('Elefante')">ELMER</p>
+                    <p v-on:click="irAnimal('Elmer')">ELMER</p>
                </div>
                <div class="d-flex justify-content-center align-items-center">
                     <a href="javascript:void(0)" v-on:click="irAnimal('Jirafa')" class="relative iconBlue">
                          <div class="iconNav">
                               <div class="iconCircle">
                                    <div class="iconCircle2 d-flex flex-column justify-content-center align-items-center">
-                                        <img src="/frontend/images/jirafa.png" alt="Jirafa" title="Jirafa" />
+                                        <img src="/frontend/images/jirafa.png" alt="Zafa" title="Zafa" />
                                    </div>
                               </div>
                          </div>
@@ -47,7 +47,7 @@
                          <div class="iconNav">
                               <div class="iconCircle">
                                    <div class="iconCircle2 d-flex flex-column justify-content-center align-items-center">
-                                        <img src="/frontend/images/rex.png" alt="Rex" title="Rex" />
+                                        <img src="/frontend/images/rex.png" alt="Gerald" title="Gerald" />
                                    </div>
                               </div>
                          </div>
@@ -59,7 +59,7 @@
                          <div class="iconNav">
                               <div class="iconCircle">
                                    <div class="iconCircle2 d-flex flex-column justify-content-center align-items-center">
-                                        <img src="/frontend/images/canguro.png" alt="Canguro" title="Canguro" />
+                                        <img src="/frontend/images/canguro.png" alt="Luli & Maura" title="Luli & Maura" />
                                    </div>
                               </div>
                          </div>
@@ -71,7 +71,7 @@
                          <div class="iconNav">
                               <div class="iconCircle">
                                    <div class="iconCircle2 d-flex flex-column justify-content-center align-items-center">
-                                        <img src="/frontend/images/zorro.png" alt="Zorro" title="Zorro" />
+                                        <img src="/frontend/images/zorro.png" alt="Zun Zun" title="Zun Zun" />
                                    </div>
                               </div>
                          </div>
