@@ -12261,6 +12261,14 @@ form .boxCheckbox label:before {
   width: 100%;
 }
 
+.homeBanner {
+  margin-top: -2rem;
+}
+@media screen and (min-width: 992px) {
+  .homeBanner {
+    margin-top: 0rem;
+  }
+}
 .homeBanner .boxBackground {
   background-position: top center;
   overflow: hidden;
@@ -12418,8 +12426,8 @@ form .boxCheckbox label:before {
 }
 .homeBanner .boxBackground .boxContent .boxMuchoMejor {
   position: absolute;
-  top: -9rem;
-  left: -1.5rem;
+  top: -3rem;
+  left: 1.5rem;
 }
 @media screen and (min-width: 992px) {
   .homeBanner .boxBackground .boxContent .boxMuchoMejor {
@@ -12429,7 +12437,7 @@ form .boxCheckbox label:before {
 }
 .homeBanner .boxBackground .boxContent .boxMuchoMejor a {
   display: block;
-  width: 180px;
+  width: 100px;
 }
 @media screen and (min-width: 992px) {
   .homeBanner .boxBackground .boxContent .boxMuchoMejor a {
@@ -12445,6 +12453,9 @@ form .boxCheckbox label:before {
   .homeBanner .boxBackground .boxContent .boxMuchoMejor a {
     width: 180px;
   }
+}
+.homeBanner .boxBackground .boxContent .boxMuchoMejor a img {
+  width: 100%;
 }
 .homeBanner .boxBackground .boxContent .boxElefante,
 .homeBanner .boxBackground .boxContent .boxJirafa {
