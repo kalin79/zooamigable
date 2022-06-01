@@ -2,7 +2,7 @@
      <footer>
           <div class="d-flex justify-content-center align-items-center">
                <a href="https://www.megaplaza.com.pe/independencia" class="boxLogo">
-                    <img src="/frontend/images/mega.png" alt="Mega Plaza">
+                    <img src="/frontend/images/mpcaneteblanco.svg" alt="Mega Plaza">
                </a>
           </div>
           <div class="boxSocial d-flex justify-content-center align-items-center">
