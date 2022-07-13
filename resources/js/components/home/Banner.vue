@@ -6,7 +6,7 @@
                          <div class="container-fluid relative">
                               <div class="boxMuchoMejor">
                                    <a href="javascript:void(0)">
-                                        <img  src="/frontend/images/Lognegro.png" alt="Mucho Mejor" title="Mucho Mejor">
+                                        <img  src="/frontend/images/nnuevomucho.png" alt="Mucho Mejor" title="Mucho Mejor">
                                    </a>
                               </div>
                               <div class="boxElefante">
@@ -21,7 +21,10 @@
                               </div>
                               <div class="d-flex justify-content-center align-items-center">
                                    <div class="centerTitle">
-                                        <div class="titleBanner">
+                                        <div class="boxZoo">
+                                             <img src="/frontend/images/tituloNuevoQuinde1.png" alt="Zoológico amigable" title="Zoológico amigable">
+                                        </div>
+                                        <!--<div class="titleBanner">
                                              <img src="/frontend/images/bienvenido.svg" alt="Bienvenido" title="Bienvenido">
                                         </div>
                                         <div class="boxZoo">
@@ -29,7 +32,7 @@
                                         </div>
                                         <div class="textZoo">
                                              <img src="/frontend/images/amigable2.svg" alt="Amigable" title="Amigable">
-                                        </div>
+                                        </div>-->
                                         <!--<div class="boxParqueArauco d-flex justify-content-center align-items-center">
                                              <img src="/frontend/images/pa.svg" alt="Parque Arauco" title="Parque Arauco">
                                         </div>-->
