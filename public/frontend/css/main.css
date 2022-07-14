@@ -12042,8 +12042,8 @@ form .boxCheckbox label:before {
   border: 0px solid #00b388;
 }
 .headerNavMain nav > div a .iconNav .iconCircle .iconCircle2 {
-  background: #00844e;
-  background: linear-gradient(180deg, #00844e 100%, rgba(1, 79, 162, 0) 100%);
+  background: #0f8854;
+  background: linear-gradient(180deg, #0f8854 100%, rgba(1, 79, 162, 0) 100%);
 }
 .headerNavMain nav > div a .iconNav .iconCircle .iconCircle2 img {
   width: 80%;
@@ -12147,7 +12147,7 @@ form .boxCheckbox label:before {
 }
 .headerNavMain nav > div a.iconBlueDark .iconNav .iconCircle {
   background: transparent;
-  border: 0px solid #06038d;
+  border: 0px solid #572f87;
 }
 .headerNavMain nav > div a.iconBlueDark .iconNav .iconCircle .iconCircle2 {
   background: #572f87;
@@ -12171,21 +12171,21 @@ form .boxCheckbox label:before {
     width: 55%;
   }
 }
-.headerNavMain nav > div a.iconYellow.zorro .iconNav .iconCircle .iconCircle2 img {
+.headerNavMain nav > div a.iconYellow .iconNav .iconCircle .iconCircle2 img {
   width: 55%;
 }
 @media screen and (min-width: 992px) {
-  .headerNavMain nav > div a.iconYellow.zorro .iconNav .iconCircle .iconCircle2 img {
+  .headerNavMain nav > div a.iconYellow .iconNav .iconCircle .iconCircle2 img {
     width: 65%;
   }
 }
 @media screen and (min-width: 1200px) {
-  .headerNavMain nav > div a.iconYellow.zorro .iconNav .iconCircle .iconCircle2 img {
+  .headerNavMain nav > div a.iconYellow .iconNav .iconCircle .iconCircle2 img {
     width: 65%;
   }
 }
 @media screen and (min-width: 1400px) {
-  .headerNavMain nav > div a.iconYellow.zorro .iconNav .iconCircle .iconCircle2 img {
+  .headerNavMain nav > div a.iconYellow .iconNav .iconCircle .iconCircle2 img {
     width: 65%;
   }
 }
@@ -12194,14 +12194,14 @@ form .boxCheckbox label:before {
 }
 .headerNavMain nav > div a.iconYellow .iconNav .iconCircle {
   background: transparent;
-  border: 3px solid #06038d;
+  border: 3px solid #e1b716;
 }
 .headerNavMain nav > div a.iconYellow .iconNav .iconCircle .iconCircle2 {
-  background: #572f87;
-  background: linear-gradient(180deg, #572f87 100%, rgba(1, 79, 162, 0) 100%);
+  background: #e1b716;
+  background: linear-gradient(180deg, #e1b716 100%, rgba(1, 79, 162, 0) 100%);
 }
 .headerNavMain nav > div a.iconYellow .iconNav .iconCircle .iconCircle2 img {
-  width: 55%;
+  width: 80%;
 }
 @media screen and (min-width: 992px) {
   .headerNavMain nav > div a.iconYellow .iconNav .iconCircle .iconCircle2 img {
@@ -12210,12 +12210,12 @@ form .boxCheckbox label:before {
 }
 @media screen and (min-width: 1200px) {
   .headerNavMain nav > div a.iconYellow .iconNav .iconCircle .iconCircle2 img {
-    width: 55%;
+    width: 84%;
   }
 }
 @media screen and (min-width: 1400px) {
   .headerNavMain nav > div a.iconYellow .iconNav .iconCircle .iconCircle2 img {
-    width: 55%;
+    width: 84%;
   }
 }
 .headerNavMain nav > div a.iconLightBlue.mucho .iconNav .iconCircle .iconCircle2 img {
@@ -12990,7 +12990,7 @@ form .boxCheckbox label:before {
   width: 100%;
 }
 .containerAnimal.containerAnimal2 .boxShare {
-  background-color: #e1b716;
+  background-color: #f37b12;
 }
 .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalImage {
   right: -10rem;
@@ -13063,7 +13063,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle .h3 {
-  color: #e1b716;
+  color: #572f87;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle .h3 {
@@ -13071,7 +13071,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle h2, .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle .h2 {
-  color: #e1b716;
+  color: #572f87;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle h2, .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle .h2 {
@@ -13079,7 +13079,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
-  color: #e1b716;
+  color: #572f87;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
@@ -13087,7 +13087,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal2 .boxBackground {
-  background-color: #e1b716;
+  background-color: #572f87;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal2 .boxBackground {
@@ -13100,12 +13100,12 @@ form .boxCheckbox label:before {
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal2 .boxBackground .boxBackground2 {
-    background-color: #e1b716;
+    background-color: #572f87;
     background-image: none;
   }
 }
 .containerAnimal.containerAnimal2 .boxBackground.style2 .boxBackground2, .containerAnimal.containerAnimal2 .boxBackground.style3 .boxBackground2 {
-  background-color: #e1b716;
+  background-color: #572f87;
   background-image: none;
 }
 .containerAnimal.containerAnimal2 .boxBackground.style2 .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal2 .boxBackground.style2 .boxGalleryAnimal .animalSubtitle .h3, .containerAnimal.containerAnimal2 .boxBackground.style3 .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal2 .boxBackground.style3 .boxGalleryAnimal .animalSubtitle .h3 {
@@ -13118,7 +13118,7 @@ form .boxCheckbox label:before {
   color: white;
 }
 .containerAnimal.containerAnimal3 .boxShare {
-  background-color: #ff6900;
+  background-color: #f37b12;
   left: 0;
   bottom: -5rem;
 }
@@ -13199,7 +13199,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle .h3 {
-  color: #ff6900;
+  color: #f37b12;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle .h3 {
@@ -13207,7 +13207,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle h2, .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle .h2 {
-  color: #ff6900;
+  color: #f37b12;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle h2, .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle .h2 {
@@ -13215,7 +13215,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
-  color: #ff6900;
+  color: #f37b12;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
@@ -13223,7 +13223,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal3 .boxBackground {
-  background-color: #ff6900;
+  background-color: #f37b12;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal3 .boxBackground {
@@ -13236,12 +13236,12 @@ form .boxCheckbox label:before {
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal3 .boxBackground .boxBackground2 {
-    background-color: #ff6900;
+    background-color: #f37b12;
     background-image: none;
   }
 }
 .containerAnimal.containerAnimal3 .boxBackground.style2 .boxBackground2, .containerAnimal.containerAnimal3 .boxBackground.style3 .boxBackground2 {
-  background-color: #ff6900;
+  background-color: #f37b12;
   background-image: none;
 }
 .containerAnimal.containerAnimal3 .boxBackground.style2 .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal3 .boxBackground.style2 .boxGalleryAnimal .animalSubtitle .h3, .containerAnimal.containerAnimal3 .boxBackground.style3 .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal3 .boxBackground.style3 .boxGalleryAnimal .animalSubtitle .h3 {
@@ -13254,7 +13254,7 @@ form .boxCheckbox label:before {
   color: white;
 }
 .containerAnimal.containerAnimal4 .boxShare {
-  background-color: #00b388;
+  background-color: #572f87;
   left: 0;
   bottom: -5rem;
 }
@@ -13337,7 +13337,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle .h3 {
-  color: #00b388;
+  color: #572f87;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalSubtitle .h3 {
@@ -13345,7 +13345,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle h2, .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle .h2 {
-  color: #00b388;
+  color: #572f87;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle h2, .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalTitle .h2 {
@@ -13353,7 +13353,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
-  color: #00b388;
+  color: #572f87;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
@@ -13361,7 +13361,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal4 .boxBackground {
-  background-color: #00b388;
+  background-color: #00844e;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal4 .boxBackground {
@@ -13374,12 +13374,12 @@ form .boxCheckbox label:before {
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal4 .boxBackground .boxBackground2 {
-    background-color: #00b388;
+    background-color: #00844e;
     background-image: none;
   }
 }
 .containerAnimal.containerAnimal4 .boxBackground.style2 .boxBackground2, .containerAnimal.containerAnimal4 .boxBackground.style3 .boxBackground2 {
-  background-color: #00b388;
+  background-color: #00844e;
   background-image: none;
 }
 .containerAnimal.containerAnimal4 .boxBackground.style2 .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal4 .boxBackground.style2 .boxGalleryAnimal .animalSubtitle .h3, .containerAnimal.containerAnimal4 .boxBackground.style3 .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal4 .boxBackground.style3 .boxGalleryAnimal .animalSubtitle .h3 {
@@ -13512,7 +13512,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal5 .boxBackground {
-  background-color: #00844e;
+  background-color: #e1b716;
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal5 .boxBackground {
@@ -13525,12 +13525,12 @@ form .boxCheckbox label:before {
 }
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal5 .boxBackground .boxBackground2 {
-    background-color: #00844e;
+    background-color: #e1b716;
     background-image: none;
   }
 }
 .containerAnimal.containerAnimal5 .boxBackground.style2 .boxBackground2, .containerAnimal.containerAnimal5 .boxBackground.style3 .boxBackground2 {
-  background-color: #00844e;
+  background-color: #e1b716;
   background-image: none;
 }
 .containerAnimal.containerAnimal5 .boxBackground.style2 .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal5 .boxBackground.style2 .boxGalleryAnimal .animalSubtitle .h3, .containerAnimal.containerAnimal5 .boxBackground.style3 .boxGalleryAnimal .animalSubtitle h3, .containerAnimal.containerAnimal5 .boxBackground.style3 .boxGalleryAnimal .animalSubtitle .h3 {
@@ -14307,7 +14307,7 @@ p.bold {
 }
 
 footer {
-  background: #00c487;
+  background: #00844e;
   padding: 1rem 0;
   position: relative;
   z-index: 5;
@@ -14328,6 +14328,9 @@ footer {
     margin-top: -5.5rem;
     padding: 2rem 0;
   }
+}
+footer .boxFooter {
+  padding: 18px 35px;
 }
 footer p {
   font-family: "DINOTLIGHT";
@@ -14352,7 +14355,7 @@ footer p {
   }
 }
 footer a img {
-  width: 150px;
+  width: 70px;
 }
 
 .pageMuchoMejor .boxBack {

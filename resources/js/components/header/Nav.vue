@@ -67,7 +67,7 @@
                     <p v-on:click="irAnimal('Canguro')">MAURA & MAURA  </p>
                </div>
                <div class="d-flex justify-content-center align-items-center">
-                    <a href="javascript:void(0)" v-on:click="irAnimal('Zorro')" class="relative">
+                    <a href="javascript:void(0)" v-on:click="irAnimal('Zorro')" class="relative iconYellow zorro">
                          <div class="iconNav">
                               <div class="iconCircle">
                                    <div class="iconCircle2 d-flex flex-column justify-content-center align-items-center">
@@ -91,7 +91,7 @@
                     <p v-on:click="linkPage('mucho-mejor')">MUCHO MEJOR</p>
                </div>
                <div class="d-flex justify-content-center align-items-center">
-                    <a href="javascript:void(0)" class="relative iconOrange" v-on:click="openPopUp()">
+                    <a href="javascript:void(0)" class="relative iconBlue" v-on:click="openPopUp()">
                          <div class="iconNav">
                               <div class="iconCircle">
                                    <div class="iconCircle2 d-flex flex-column justify-content-center align-items-center">
