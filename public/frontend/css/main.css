@@ -11972,7 +11972,7 @@ form .boxCheckbox label:before {
   }
 }
 .headerNavMain .boxLogoNav img {
-  width: 7rem;
+  width: 4rem;
 }
 .headerNavMain nav {
   padding-left: 2rem;
@@ -12504,14 +12504,15 @@ form .boxCheckbox label:before {
   }
 }
 .homeBanner .boxBackground .boxContent .boxMuchoMejor a img {
-  width: 100%;
+  width: 153%;
 }
 .homeBanner .boxBackground .boxContent .boxMuchoMejor img {
-  margin-left: 150px;
-  margin-top: 40px;
+  margin-left: -36px;
+  margin-top: -49px;
 }
 @media screen and (min-width: 992px) {
   .homeBanner .boxBackground .boxContent .boxMuchoMejor img {
+    margin-top: 40px;
     margin-left: 0px;
   }
 }

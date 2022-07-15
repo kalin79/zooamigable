@@ -14,7 +14,7 @@
           </a>
           <div class="boxLogoNav ">
                <div class="d-flex justify-content-center  align-items-center">
-                    <img src="/frontend/images/lmenu.png" alt="Parque Arauco" title="Parque Arauco">
+                    <img src="/frontend/images/quindeLogo.png" alt="Parque Arauco" title="Parque Arauco">
                </div>
           </div>
           <nav class="d-flex flex-column justify-content-center align-items-xl-center align-items-start">
