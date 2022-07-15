@@ -12510,6 +12510,11 @@ form .boxCheckbox label:before {
   margin-left: 150px;
   margin-top: 40px;
 }
+@media screen and (min-width: 992px) {
+  .homeBanner .boxBackground .boxContent .boxMuchoMejor img {
+    margin-left: 0px;
+  }
+}
 .homeBanner .boxBackground .boxContent .boxElefante,
 .homeBanner .boxBackground .boxContent .boxJirafa {
   position: absolute;
