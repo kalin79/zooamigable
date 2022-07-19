@@ -7,7 +7,7 @@
                     </a>
                </div>
                <div class="bannerMainFull">
-                    <img src="/frontend/images/bmucho.jpg" />
+                    <img src="/frontend/images/BANNER-MUCHO-MEJOR.png" />
                </div>
                <div class="boxBackground">
                     <div class="boxContent">
