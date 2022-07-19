@@ -2,7 +2,7 @@
      <footer>
           <div class="boxFooter d-flex justify-content-between align-item-center">
                <div class="d-flex justify-content-center align-items-center">
-                    <a href="https://www.google.com" class="boxLogo">
+                    <a href="https://www.elquinde.pe/ica" target="_blank" class="boxLogo">
                          <img src="/frontend/images/quindeLogo.png" alt="Quinde">
                     </a>
                </div>

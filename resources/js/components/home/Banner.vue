@@ -5,7 +5,7 @@
                     <div class="boxContent tounscew">
                          <div class="container-fluid relative">
                               <div class="boxMuchoMejor">
-                                   <a href="javascript:void(0)">
+                                   <a href="/mucho-mejor">
                                         <img  src="/frontend/images/nnuevomucho.png" alt="Mucho Mejor" title="Mucho Mejor">
                                    </a>
                               </div>
