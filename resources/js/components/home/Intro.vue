@@ -12,7 +12,7 @@
                               </div>
                               <div class="boxDescription mt-3">
                                    <p class="txtCenter">
-                                        Porque en MegaPlaza Chincha, nos va MUCHO MEJOR protegiendo a nuestros animalitos, <br>
+                                        Porque en Quinde Ica, nos va MUCHO MEJOR protegiendo a nuestros animalitos, <br>
                                         evitando sacarlos de su hábitat natural y apostando por un mundo más sostenible. <br>
                                         ¿Estás listo para conocerlos?
                                    </p>

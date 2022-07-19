@@ -12470,8 +12470,37 @@ form .boxCheckbox label:before {
   }
 }
 .homeBanner .boxBackground .boxContent .centerTitle .boxZoo img {
-  width: 100%;
-  margin-top: 13%;
+  width: 95%;
+  margin-top: 4%;
+  margin-left: 5px;
+}
+@media screen and (min-width: 660px) {
+  .homeBanner .boxBackground .boxContent .centerTitle .boxZoo img {
+    width: 63%;
+    margin-top: -45%;
+    margin-left: 38px;
+  }
+}
+@media screen and (min-width: 760px) {
+  .homeBanner .boxBackground .boxContent .centerTitle .boxZoo img {
+    width: 180%;
+    margin-top: 9%;
+    margin-left: -86px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .homeBanner .boxBackground .boxContent .centerTitle .boxZoo img {
+    width: 134%;
+    margin-top: 20%;
+    margin-left: -23px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .homeBanner .boxBackground .boxContent .centerTitle .boxZoo img {
+    width: 89%;
+    margin-top: 7%;
+    margin-left: 24px;
+  }
 }
 .homeBanner .boxBackground .boxContent .boxMuchoMejor {
   position: absolute;
@@ -12506,9 +12535,23 @@ form .boxCheckbox label:before {
 .homeBanner .boxBackground .boxContent .boxMuchoMejor a img {
   width: 153%;
 }
+@media screen and (min-width: 992px) {
+  .homeBanner .boxBackground .boxContent .boxMuchoMejor a img {
+    width: 113%;
+    margin-left: 10px;
+    margin-top: 46px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .homeBanner .boxBackground .boxContent .boxMuchoMejor a img {
+    width: 113%;
+    margin-left: 98px;
+    margin-top: 46px;
+  }
+}
 .homeBanner .boxBackground .boxContent .boxMuchoMejor img {
-  margin-left: -36px;
-  margin-top: -49px;
+  margin-left: -45px;
+  margin-top: -54px;
 }
 @media screen and (min-width: 992px) {
   .homeBanner .boxBackground .boxContent .boxMuchoMejor img {
@@ -12550,6 +12593,7 @@ form .boxCheckbox label:before {
 @media screen and (min-width: 992px) {
   .homeBanner .boxBackground .boxContent .boxJirafa img {
     width: 320px;
+    margin-right: -106px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -12886,6 +12930,7 @@ form .boxCheckbox label:before {
 @media screen and (min-width: 992px) {
   .containerAnimal .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
     color: white;
+    padding: 50px;
   }
 }
 .containerAnimal .boxBackground {
@@ -12940,6 +12985,7 @@ form .boxCheckbox label:before {
 }
 .containerAnimal .boxBackground.style2 .boxGalleryAnimal .animalDescription p, .containerAnimal .boxBackground.style3 .boxGalleryAnimal .animalDescription p {
   color: white;
+  padding: 50px;
 }
 .containerAnimal .boxBackground.style3 .boxBackground2 {
   padding-top: 0rem;
@@ -13090,6 +13136,7 @@ form .boxCheckbox label:before {
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal2 .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
     color: white;
+    padding: 50px;
   }
 }
 .containerAnimal.containerAnimal2 .boxBackground {
@@ -13122,6 +13169,7 @@ form .boxCheckbox label:before {
 }
 .containerAnimal.containerAnimal2 .boxBackground.style2 .boxGalleryAnimal .animalDescription p, .containerAnimal.containerAnimal2 .boxBackground.style3 .boxGalleryAnimal .animalDescription p {
   color: white;
+  padding: 50px;
 }
 .containerAnimal.containerAnimal3 .boxShare {
   background-color: #f37b12;
@@ -13226,6 +13274,7 @@ form .boxCheckbox label:before {
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal3 .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
     color: white;
+    padding: 50px;
   }
 }
 .containerAnimal.containerAnimal3 .boxBackground {
@@ -13258,6 +13307,7 @@ form .boxCheckbox label:before {
 }
 .containerAnimal.containerAnimal3 .boxBackground.style2 .boxGalleryAnimal .animalDescription p, .containerAnimal.containerAnimal3 .boxBackground.style3 .boxGalleryAnimal .animalDescription p {
   color: white;
+  padding: 50px;
 }
 .containerAnimal.containerAnimal4 .boxShare {
   background-color: #572f87;
@@ -13364,6 +13414,7 @@ form .boxCheckbox label:before {
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal4 .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
     color: white;
+    padding: 50px;
   }
 }
 .containerAnimal.containerAnimal4 .boxBackground {
@@ -13396,6 +13447,7 @@ form .boxCheckbox label:before {
 }
 .containerAnimal.containerAnimal4 .boxBackground.style2 .boxGalleryAnimal .animalDescription p, .containerAnimal.containerAnimal4 .boxBackground.style3 .boxGalleryAnimal .animalDescription p {
   color: white;
+  padding: 50px;
 }
 .containerAnimal.containerAnimal5 .boxShare {
   background-color: #0072ce;
@@ -13409,7 +13461,7 @@ form .boxCheckbox label:before {
   }
 }
 .containerAnimal.containerAnimal5 .owl-carousel .owl-item .boxGalleryAnimal .animalImage {
-  right: -40rem;
+  right: -42rem;
   top: -24rem;
   width: 1000px;
 }
@@ -13515,6 +13567,7 @@ form .boxCheckbox label:before {
 @media screen and (min-width: 992px) {
   .containerAnimal.containerAnimal5 .owl-carousel .owl-item .boxGalleryAnimal .animalDescription p {
     color: white;
+    padding: 50px;
   }
 }
 .containerAnimal.containerAnimal5 .boxBackground {
@@ -13547,6 +13600,7 @@ form .boxCheckbox label:before {
 }
 .containerAnimal.containerAnimal5 .boxBackground.style2 .boxGalleryAnimal .animalDescription p, .containerAnimal.containerAnimal5 .boxBackground.style3 .boxGalleryAnimal .animalDescription p {
   color: white;
+  padding: 50px;
 }
 
 a {
@@ -14410,9 +14464,12 @@ footer a img {
 }
 .pageMuchoMejor .boxBackground .boxSubTitle h2, .pageMuchoMejor .boxBackground .boxSubTitle .h2 {
   color: black;
+  margin: 30px;
 }
 .pageMuchoMejor .boxBackground .boxDescription p {
   color: black;
+  font-size: 16px;
+  margin: 30px;
 }
 .pageMuchoMejor .boxBackground .video-responsive {
   position: relative;
