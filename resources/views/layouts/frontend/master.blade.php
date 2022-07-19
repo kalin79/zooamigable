@@ -6,7 +6,7 @@
     @yield('meta_tags')
 
     <link href="{{ asset('css/fonts.css') }}" rel="stylesheet">
-    <link href="{{ asset('frontend/css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/css/main.css?v=100') }}" rel="stylesheet">
     <meta name="robots" content="index, follow">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -46,7 +46,7 @@
           </div>
     </div>
     {{-- @include('includes.frontend.load.load') --}}
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js?v=100') }}"></script>
 
 </body>
 </html>
